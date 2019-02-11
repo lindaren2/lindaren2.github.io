@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Linda Ren</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/logo-graphic-icon.png">
+</head>
+
+<body>
+    <div id="wrapper">
+    <app-root>
+      <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+      </div>
+    </app-root>
+  </div>
+  </body>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<!-- I recommend you host this file on your own, since this will change without warning -->
+<script src="https://datamaps.github.io/scripts/datamaps.usa.min.js?v=1"></script>
+
+<script src="assets/map.js"></script>
+<script>
+  // add on click functionality here
+  mapOil(document);
+  //mapOther(document);
+</script>
+
+
+</html>

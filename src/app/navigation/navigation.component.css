@@ -1,0 +1,142 @@
+
+button {
+    white-space: nowrap; 
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+#nav-main{
+margin-top: 35vh;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.nav-btn-active{
+    width: 5px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 2vw;
+    border-radius: 20%;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.nav-btn-active:hover{
+    width: 80px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 2vw;
+    border-radius: 0%;
+    color: rgb(41, 41, 41);
+}
+
+.nav-btn-inactive{
+    width: 5px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 2vw;
+    border-radius: 20%;
+    cursor: pointer;
+    display: block;
+    background-color: rgb(41, 41, 41);
+    color: rgb(41, 41, 41);
+}
+
+.nav-btn-inactive:hover{
+    width: 80px;
+    height: 25px;
+    margin: 15px;
+    margin-left: 2vw;
+    border-radius: 0%;
+    background-color:white;
+}
+
+
+#sideNav {
+    position: fixed;
+    z-index: 1;
+}
+
+#sticky-logo{
+    position: fixed;
+    margin-right: 3vw;
+    margin-top: 5vh;
+    right: 0;
+    top: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+
+#sticky-logo:hover{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 2.8vw;
+    margin-top: 4.8vh;
+}
+
+#sticky-logo img{
+    width: 50px;
+    height: auto;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#sticky-logo img:hover{
+    width: 55px;
+    height: auto;
+}
+
+#logo-btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+}
+
+
+@media only screen and (max-width: 700px) {
+    
+.nav-btn-active{
+    margin-left: 3vw;
+}
+.nav-btn-active:hover{
+    margin-left: 3vw;
+}
+.nav-btn-inactive{
+    margin-left: 3vw;
+}
+.nav-btn-inactive:hover{
+    margin-left: 3vw;
+}
+}
+
+@media only screen and (max-width: 430px) {
+    #sticky-logo{
+        display: none;
+    }
+    .nav-btn-active{
+        margin-left: 5vw;
+    }
+    .nav-btn-active:hover{
+        margin-left: 5vw;
+    }
+    .nav-btn-inactive{
+        margin-left: 5vw;
+    }
+    .nav-btn-inactive:hover{
+        margin-left: 5vw;
+    }
+}
