@@ -1,0 +1,75 @@
+
+<div id="vision" class="scrollto">
+  <div id="wrapper">
+    <div id="text-wrapper">
+      <div id="text-container">
+        <h2>US Energy Production by State</h2>
+        <p id="text-with-size">
+
+          As our energy consumption grows, it is important to consider national and regional trends in energy consumption.
+          While renewables are a constant source of excitement, they still make up a fractional capacity of our energy needs.
+        </p>
+        <div class="bar-wrapper" onclick="mapOil(document)" >
+          <div class="mini-title">
+            <p class="mini-title-text">Oil & Gas</p>
+            <p class="mini-title-value">33%</p>
+          </div>
+
+        <div class="bar">
+          <div id="oil-bar"></div>
+        </div>
+        </div>
+
+        <div class="bar-wrapper" onclick="mapCoal(document)">
+          <div class="mini-title">
+            <p class="mini-title-text">Coal</p>
+            <p class="mini-title-value">30%</p>
+          </div>
+          <div class="bar">
+            <div id="coal-bar"></div>
+          </div>
+        </div>
+
+        <div class="bar-wrapper" onclick="mapNuclear(document)">
+          <div class="mini-title">
+            <p class="mini-title-text">Nuclear</p>
+            <p class="mini-title-value">20%</p>
+          </div>
+          <div class="bar">
+            <div id="nuclear-bar"></div>
+          </div>
+        </div >
+
+        <div class="bar-wrapper" onclick="mapWSH(document)">
+          <div class="mini-title">
+            <p class="mini-title-text">Wind, Solar, Hydro</p>
+            <p class="mini-title-value">15%</p>
+          </div>
+          <div class="bar">
+            <div id="wsh-bar"></div>
+          </div>
+        </div>
+
+        <div class="bar-wrapper" onclick="mapOther(document)">
+          <div class="mini-title">
+            <p class="mini-title-text">Other</p>
+            <p class="mini-title-value">2%</p>
+          </div>
+          <div class="bar">
+            <div id="other-bar"></div>
+        </div>
+      </div>
+
+
+
+      </div>
+    </div>
+    <div id="map-wrapper" style="position: relative; width: 50%; padding-top: 25%;">
+      <div id="map" >
+
+      </div>
+
+    </div>
+  </div>
+
+</div>

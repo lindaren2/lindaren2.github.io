@@ -1,0 +1,19 @@
+<div id="sideNav">
+    <div>
+            <div id="sticky-logo" [@scrollAnimationLogo]='state'>
+                    <button id="logo-btn"[ngx-scroll-to]="'#home'">
+                <!--<img src="../../assets/logo-graphic-icon.png" id="navigation-logo"/>-->
+                </button>
+            </div>
+        <div>
+            <div id="nav-main" [@scrollAnimation]='state'>
+                    <button [ngClass]="{'nav-btn-active': showVision, 'nav-btn-inactive': !showVision}"[ngx-scroll-to]="'#vision'">
+                        <!--<span (mouseenter)="mouseEnter('Vision')">Vision</span>-->
+                    </button>
+                    <!--<button [ngClass]="{'nav-btn-active': showMarket, 'nav-btn-inactive': !showMarket}" [ngx-scroll-to]="'#market'">-->
+                            <!--<span (mouseenter)="mouseEnter('Market')">Market</span>-->
+                        <!--</button>-->
+            </div>
+        </div>
+    </div>
+</div>

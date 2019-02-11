@@ -1,0 +1,182 @@
+#vision{
+    background-color: #0E1230;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.bar{
+  background-color:#FFFFFF60;
+  width:100%;
+  height:12px;
+  border-radius:6px;
+}
+.text-with-size{
+  font-size:1em;
+}
+
+.mini-title-text{
+  text-align: left;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  margin:0px;
+
+
+}
+
+.mini-title:hover {
+  color: white;
+}
+
+.mini-title-value{
+  margin:0px;
+  margin-left:auto;
+  text-align: right;
+}
+
+.mini-title{
+  color:#FFFFFF80;
+  margin:0px;
+  margin-left:12px;
+  display: flex;
+  margin-bottom:5px;
+}
+
+#oil-bar{
+  background-color:#ff1d25;
+  width:33%;
+  height:12px;
+  border-radius:6px;
+}
+
+#coal-bar{
+  background-color:#f2d200;
+  width:30%;
+  height:12px;
+  border-radius:6px;
+}
+
+#wsh-bar{
+  background-color:#27d888;
+  width:15%;
+  height:12px;
+  border-radius:6px;
+}
+
+
+#nuclear-bar{
+  background-color:#f22f9d;
+  width:20%;
+  height:12px;
+  border-radius:6px;
+}
+
+#other-bar{
+  background-color:#808080;
+  width:3%;
+  height:12px;
+  border-radius:6px;
+}
+
+.bar-wrapper{
+  margin-bottom:15px;
+  cursor: pointer;
+}
+
+
+#text-wrapper {
+  float: left;
+  width: 45%;
+}
+
+#text-container{
+  margin-left:10%;
+  padding:20px;
+}
+
+#energy-text{
+  /*font-family: "Georgia";*/
+  font-weight: 800;
+  font-size: 100px;
+  color: #ffe676;
+  margin-top:50px;
+  line-height: 3;
+
+}
+
+#wrapper{
+  height:600px;
+}
+
+#map-wrapper{
+  float:right;
+  width:50%;
+  margin-top: 75px;
+}
+
+
+#map{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 1080px) {
+    #vision-text-ai{
+        text-align: center;
+        margin-right: 15%;
+    margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #vision-text{
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #vision-text{
+        margin-right: 25%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #vision-text-ai{
+        font-size: 2.8em;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    #vision-text-ai{
+        font-size: 2.4em;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    #vision-text{
+        margin-left: 15%;
+        font-size: 1.2em;
+        margin-right: 5%;
+    }
+    #vision-text-ai{
+        text-align: left;
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #vision-text{
+        margin-left: 10%;
+        font-size: 1.2em;
+        margin-right: 5%;
+    }
+    #vision-text-ai{
+        text-align: left;
+        font-size: 2em;
+    }
+}

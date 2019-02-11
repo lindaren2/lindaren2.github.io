@@ -1,0 +1,30 @@
+#home {
+    background-size: cover;
+    height:100vh;
+}
+
+#logo {
+  padding-top: 35vh;
+  text-align: center;
+}
+
+#logo-graphic{
+    width: 15%;
+    transform: translateX(-10%);
+}
+#logo-text{
+    margin-top: 5vh;
+    width: 35%;
+}
+
+@media only screen and (min-width: 1980px) {
+    #logo-text{
+        margin-top: 8vh;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    #logo-text{
+        margin-top: 2.5vh;
+    }
+}
